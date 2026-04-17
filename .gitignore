@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.venv
+venv/
+venv311/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE & Tools
+.idea/
+.ruff_cache/
+.mypy_cache/
+.cursorignore
+.cursorindexingignore
+
+# Logs
+*.log
+pip-log.txt
+
+# Dataset & Large Files
+WELFake_Dataset.csv
+fake-news-classification.zip
+model/clean_data.csv
+
+# Misc
+.DS_Store
